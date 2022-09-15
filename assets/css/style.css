@@ -11,3 +11,19 @@
 body{
     background-color: cornflowerblue;
 }
+header{
+    background-color: aqua;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+header p{
+    margin-top: 20px;
+}
+main{
+    background-color: crimson;
+    width: 70%;
+    margin: auto;
+}
+

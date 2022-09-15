@@ -10,13 +10,14 @@
     clear: both;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
 
 body{
-    font-family: sans-serif;
+    font-family:'Fredoka', sans-serif;
 }
 /* --------HEADER------------------------------------ */
 header{
-    width: 70%;
+    width: 85%;
     margin: auto; 
     text-align: center;
     padding-bottom: 20px;
@@ -25,16 +26,17 @@ header h1{
     color: red;
     text-align: center;
     margin-top: 30px;
+    font-size: -webkit-xxx-large;  
 }
+
 header p{
-    margin-top: 20px;
-   
+    margin-top: 60px;
 }
 
 /* IL MAIN E IL CONTAINER DI COLONNE-------------------- */
 main{
     /* background-color: crimson; */
-    width: 70%;
+    width: 85%;
     margin: auto;
 }
 .container{
@@ -44,27 +46,39 @@ main{
 .col{
     float: left;
     width: calc(100% /3);
-    background-color: orange;
-    border: black 1px solid;
+    
+    margin-top:30px;
 }
 /* ----CARD------------------------------------------- */
 .card{
-    width: 95%;
+    width: 90%;
     background-color: black;
     margin-top: 30px;   
 }
 /* ---CARD TAG----------------------------------------- */
  .card img{
-    height: 150px;
+    height: 140px;
     float: left;
+}
+.text p{
+    line-height: 38px;
+    padding: 8px;
+
 }
 
 .nome{
-    font: bold;
-    color:white;
+    color: white;
+    font-weight: 900;
+    padding-left: 17px;
 }
 .lavoro{
     font: 100;
+    color: white;
+    padding-left: 17px;
+}
+.mail-contatto{
+    color: lightskyblue;
+    padding-left: 17px;
 }
 
 

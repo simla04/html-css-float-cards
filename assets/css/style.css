@@ -1,29 +1,70 @@
+/* RESET RULES CSS */
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container::after{
+.clearfix::after{
     content: '';
     display: table;
     clear: both;
 }
+
+
 body{
-    background-color: cornflowerblue;
+    font-family: sans-serif;
 }
+/* --------HEADER------------------------------------ */
 header{
-    background-color: aqua;
     width: 70%;
-    margin: auto;
+    margin: auto; 
     text-align: center;
-    margin-top: 20px;
+    padding-bottom: 20px;
+}
+header h1{
+    color: red;
+    text-align: center;
+    margin-top: 30px;
 }
 header p{
     margin-top: 20px;
+   
 }
+
+/* IL MAIN E IL CONTAINER DI COLONNE-------------------- */
 main{
-    background-color: crimson;
+    /* background-color: crimson; */
     width: 70%;
     margin: auto;
 }
+.container{
+    width: 100%;
+}
+/* ----COLONNE 1-2-3---------------------------------- */
+.col{
+    float: left;
+    width: calc(100% /3);
+    background-color: orange;
+    border: black 1px solid;
+}
+/* ----CARD------------------------------------------- */
+.card{
+    width: 95%;
+    background-color: black;
+    margin-top: 30px;   
+}
+/* ---CARD TAG----------------------------------------- */
+ .card img{
+    height: 150px;
+    float: left;
+}
+
+.nome{
+    font: bold;
+    color:white;
+}
+.lavoro{
+    font: 100;
+}
+
 
